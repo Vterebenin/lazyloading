@@ -4,6 +4,7 @@
 | Jquery | [jquery.min.js][PlDb] |
 | ------ | ------ |
 | **Lazyloading** | **[lazyloading.min.js][PlGh]** |
+
 Подключаем 
 ```sh
 <script src="jquery.js"></script>
