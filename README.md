@@ -46,12 +46,16 @@
 И делаем инициализацию в js. 
 Например, если все картинки имеют класс lazyload, то такая:
 ```sh
-lazyload();
+if ($(".b-lazy").length) {
+    lazyload();
+}
 ```
 Иначе такая:
 ```sh
-var images = document.querySelectorAll(".some-class");
-lazyload(images);
+if ($(".some-class").length) {
+    var images = document.querySelectorAll(".some-class");
+    lazyload(images);
+}
 ```
 Больше примеров и типов инициализации [здесь](https://appelsiini.net/projects/lazyload/)
 
