@@ -63,9 +63,6 @@ Lazyloading работает так, что если изображение ес
 
 Если не задать их, то превью-изображения при некоторых стилях буду рендериться в минимальном соотношении в пикселях. Например, без должного задания css-стилей, превью 700-500 будет иметь соотношение 7:5 и в браузере будет отображено как 7px:5px. Эту проблему и решают обертка и классы.
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+   [PlDb]: <https://github.com/Vterebenin/lazyloading/jquery.lazyloading.min.js>
+   [PlGh]: <https://github.com/Vterebenin/lazyloading/jquery.min.js>
+
